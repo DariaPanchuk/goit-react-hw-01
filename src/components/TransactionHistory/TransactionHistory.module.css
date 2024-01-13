@@ -1,0 +1,41 @@
+table,
+td,
+th {
+    border: 1px solid #000;
+}
+
+tr:nth-child(even) {
+    background-color: #d3d3d3;
+}
+
+.table{
+    display: table;
+    margin: 0px auto 30px auto;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+.thead {
+    background-color: #000;
+    color: #fff;
+}
+
+.thead:hover,
+.thead:focus {
+    cursor: pointer;
+    background-color: #128511;
+}
+
+.titem {
+    padding: 5px 50px;
+}
+
+.tbitem {
+    composes: titem;
+}
+
+.tbody:hover,
+.tbody:focus {
+    cursor: pointer;
+    background-color: #ff1814;
+}
